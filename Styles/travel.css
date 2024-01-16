@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Poppins", sans-serif; */
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    --color1: #FFF;
+    --color2: #181818;
+    --color3: #06cead;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: var(--color3);
+    border: none;
+    padding: 10px 10px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+
+}
+
+
+/* header-section-styles */  
+
+.header-section {
+    max-width: 1250px;
+    margin: 40px auto;
+}
+
+
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: var(--color1);
+    /* padding: 12px 20px; */
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.travel {
+    color: var(--color3);
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    padding-left: 30px;
+}
+
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color2);
+    font-weight: 600;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+
+}
+
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--color2);
+    transition: 0.15s ease-in-out;
+
+}
+
+.menu li a:hover:after {
+    width: 100%;
+    color: #fc0000;
+}
+
+.open-menu,
+.close-menu {
+    position: absolute;
+    color: var(--color2);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+
+#check {
+    display: none;
+}
+
+
+/* banner-section-styles */  
+
+
+.banner-section {
+    max-width: 1250px;
+    margin: 40px auto;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(0, 0, 0)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    text-align: center;
+    /* padding: 210px 240px; */
+    background-size: cover;
+    color: #fcfafa;
+ border-radius: 15px;
+}
+
+.banner-content{
+    padding: 140px;
+  
+  }
+
+.banner-title {
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px;
+}
+
+.form {
+    display: flex;
+    background-color: var(--color3);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.form input {
+    border-radius: 10px;
+    margin: 0 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding: 15px 15px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+
+    /* .nav-bar{
+        flex-direction: column;
+    } */
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 60vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color3);
+        transition: all 0.2s ease-in-out;
+    }
+
+    .menu li {
+        margin-top: 40px;
+    }
+
+    .menu li a {
+        padding: 10px;
+    }
+
+    .open-menu,
+    .close-menu {
+        display: block;
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
+
+
+
+
+
+    .banner-content{
+        padding: 100px 24px;
+      
+      }
+      .banner-title {
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .form {
+        flex-direction: column;
+        max-width: 100%;
+        gap:20px ;
+
+    }
+
+
+}
