@@ -184,7 +184,7 @@ body {
     max-width: 1250px;
     margin: 100px auto;
     display: flex;
-    gap:50px ;
+    gap:100px ;
 }
 
 .popular-text-content{
@@ -377,6 +377,7 @@ body {
         gap:50px ; */
         align-items: center;
         flex-direction: column;
+        gap:50px ;
     }
 
     .popular-text-content{
