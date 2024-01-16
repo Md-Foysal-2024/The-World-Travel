@@ -296,7 +296,9 @@ body {
 .choose-section-title {
     padding: 20px 0px;
 }
-
+.choose-description{
+    padding: 20px 140px;
+}
 
 
 /* newsletter-section-styles */
