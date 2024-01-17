@@ -932,6 +932,87 @@ max-width: 100%;
         margin: 20px 30px;
     }
 
+    .destination-img-container-1 {
+        
+        position: relative;
+    
+    }
+    
+    .country-1{
+        font-size: 24px;
+        color: #fcf9f9;
+        position: absolute;
+        left: 40%;
+        bottom: 75%;
+    }
+    .country-2{
+        font-size: 24px;
+        color: #fcf9f9;
+        position: absolute;
+        left: 40%;
+        bottom: 20%;
+    }
+
+
+    .destination-img-container-2 {
+        
+        position: relative;
+    
+    }
+    
+    .country-3{
+        font-size: 24px;
+        color: #fcf9f9;
+        position: absolute;
+        left: 40%;
+        bottom: 82%;
+    }
+    .country-4{
+        font-size: 24px;
+        color: #fcf9f9;
+        position: absolute;
+        left: 36%;
+        bottom: 53%;
+    }
+    .country-5{
+        font-size: 24px;
+        color: #fcf9f9;
+        position: absolute;
+        left: 40%;
+        bottom: 20%;
+    }
+
+
+    .destination-img-container-3 {
+        
+        position: relative;
+    
+    }
+    
+    .country-6{
+        font-size: 24px;
+        color: #fcf9f9;
+        position: absolute;
+        left: 40%;
+        bottom: 70%;
+    }
+    .country-7{
+        font-size: 24px;
+        color: #fcf9f9;
+        position: absolute;
+        left: 40%;
+        bottom: 18%;
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 }
