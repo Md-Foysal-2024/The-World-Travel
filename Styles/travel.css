@@ -138,7 +138,7 @@ body {
 .banner-section {
     max-width: 1250px;
     margin: 40px auto;
-    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(0, 0, 0)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     text-align: center;
     /* padding: 210px 240px; */
     background-size: cover;
