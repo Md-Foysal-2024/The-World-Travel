@@ -242,14 +242,15 @@ body {
 
 }
 
-.country-1{
+.country-1 {
     font-size: 24px;
     color: #fcf9f9;
     position: absolute;
     left: 22%;
     bottom: 50%;
 }
-.country-2{
+
+.country-2 {
     font-size: 24px;
     color: #fcf9f9;
     position: absolute;
@@ -267,21 +268,23 @@ body {
     position: relative;
 }
 
-.country-3{
+.country-3 {
     font-size: 24px;
     color: #fcf9f9;
     position: absolute;
     left: 14%;
     bottom: 45%;
 }
-.country-4{
+
+.country-4 {
     font-size: 24px;
     color: #fcf9f9;
     position: absolute;
     left: 45%;
     bottom: 45%;
 }
-.country-5{
+
+.country-5 {
     font-size: 24px;
     color: #fcf9f9;
     position: absolute;
@@ -301,14 +304,16 @@ body {
     padding-right: 44px;
     position: relative;
 }
-.country-6{
+
+.country-6 {
     font-size: 24px;
     color: #fcf9f9;
     position: absolute;
     left: 18%;
     bottom: 45%;
 }
-.country-7{
+
+.country-7 {
     font-size: 24px;
     color: #fcf9f9;
     position: absolute;
@@ -341,12 +346,14 @@ body {
     border: 1px solid rgb(190, 190, 190);
     border-radius: 15px;
 }
+
 .hotel-content-two {
     margin: 20px;
     padding: 40px;
     border: 1px solid rgb(190, 190, 190);
     border-radius: 15px;
 }
+
 .hotel-content-three {
     margin: 20px;
     padding: 40px;
@@ -354,17 +361,10 @@ body {
     border-radius: 15px;
 }
 
-.hotel-room-title{
+.hotel-room-title {
     padding: 10px 0px;
     font-size: 24px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -474,9 +474,9 @@ body {
     margin: 10px 0px;
     padding-top: 18px;
     padding-bottom: 18px;
-    padding-right: 180px;
+    padding-right: 200px;
     border-radius: 10px;
-    padding-left: 20px;
+    padding-left: 40px;
     font-size: 16px;
     border: none;
 
@@ -485,8 +485,8 @@ body {
 .btn-newsletter {
     margin-top: 10px;
     text-align: center;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 /* footer-section-styles */
@@ -539,87 +539,7 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* <------------------Responsive Section Starts Here--------------> */
 
 @media screen and (max-width:600px) {
 
@@ -922,30 +842,33 @@ max-width: 100%;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .hotel-content-one{
+    .hotel-content-one {
         margin: 20px 30px;
     }
-    .hotel-content-two{
+
+    .hotel-content-two {
         margin: 0px 30px;
     }
-    .hotel-content-three{
+
+    .hotel-content-three {
         margin: 20px 30px;
     }
 
     .destination-img-container-1 {
-        
+
         position: relative;
-    
+
     }
-    
-    .country-1{
+
+    .country-1 {
         font-size: 24px;
         color: #fcf9f9;
         position: absolute;
         left: 40%;
         bottom: 75%;
     }
-    .country-2{
+
+    .country-2 {
         font-size: 24px;
         color: #fcf9f9;
         position: absolute;
@@ -955,26 +878,28 @@ max-width: 100%;
 
 
     .destination-img-container-2 {
-        
+
         position: relative;
-    
+
     }
-    
-    .country-3{
+
+    .country-3 {
         font-size: 24px;
         color: #fcf9f9;
         position: absolute;
         left: 40%;
         bottom: 82%;
     }
-    .country-4{
+
+    .country-4 {
         font-size: 24px;
         color: #fcf9f9;
         position: absolute;
         left: 36%;
         bottom: 53%;
     }
-    .country-5{
+
+    .country-5 {
         font-size: 24px;
         color: #fcf9f9;
         position: absolute;
@@ -984,34 +909,26 @@ max-width: 100%;
 
 
     .destination-img-container-3 {
-        
+
         position: relative;
-    
+
     }
-    
-    .country-6{
+
+    .country-6 {
         font-size: 24px;
         color: #fcf9f9;
         position: absolute;
         left: 40%;
         bottom: 70%;
     }
-    .country-7{
+
+    .country-7 {
         font-size: 24px;
         color: #fcf9f9;
         position: absolute;
         left: 40%;
         bottom: 18%;
     }
-
-
-
-
-
-
-
-
-
 
 
 
